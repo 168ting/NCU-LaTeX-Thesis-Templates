@@ -1,0 +1,166 @@
+%此文件編譯需使用xelatex 
+%此文件編譯需使用xelatex 
+%此文件編譯需使用xelatex 
+%很重要說三次
+
+\documentclass[12pt,a4paper,titlepage,oneside]{book}
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+%\graphicspath{{./figures/}} %設置插入圖片之圖片目錄路徑
+
+\usepackage{pifont}
+\usepackage{cite}  % 文獻引用，壓縮連續編號
+\usepackage{colortbl}
+\usepackage{yhmath}
+\usepackage{algorithm}  % 負責排版演算法外觀與編號控制（如：Algorithm 1、標題、框線）
+\usepackage{algorithmic} %pseudocode 的主要語法來源（如：\IF、\FOR、\STATE 等指令）
+\usepackage{rotating}
+\usepackage{epsfig}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{theorem}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{epstopdf}
+\usepackage{rotating}
+\usepackage{color}
+\newcommand{\redcolor}[1]{{\color{red} #1}} % 自定義，使\redcolor{}可行
+\newcommand{\bluecolor}[1]{{\color{blue} #1}} % 自定義，使\bluecolor{}可行
+\newcommand{\greencolor}[1]{{\color{green} #1}} % 自定義，使\greencolor{}可行
+\newcommand{\cyancolor}[1]{{\color{cyan} #1}} % 自定義，使\cyancolor{}可行
+\newcommand{\yellowcolor}[1]{{\color{yellow} #1}} % 自定義，使\yellowcolor{}可行
+\newcommand{\magentacolor}[1]{{\color{magenta} #1}} % 自定義，使\magentacolor{}可行
+\usepackage{booktabs}  % 符號表用(表格線條/三線表)
+\usepackage{longtable} % 符號表用(表格可以自動跨頁)
+\usepackage{array}     % 符號表用(欄寬與對齊更好排版)
+\usepackage{pdfpages}
+\usepackage{subfigure} %圖並列用到
+\usepackage{comment}
+\usepackage{appendix}
+\usepackage{indentfirst}
+\usepackage[colorlinks = true,      %超連結
+linkcolor = black,
+urlcolor  = black,
+citecolor = black,
+anchorcolor = black]{hyperref}
+\usepackage{makecell, multirow, tabularx, array}
+
+\usepackage{fontspec}   %加這個就可以設定字體
+\usepackage{xeCJK}      %讓中英文字體分開設置
+
+\usepackage[center]{titlesec} % chapter1修改爲第1章
+% 正文章標題：第 1 章 簡介
+\titleformat{\chapter}{\raggedright\Huge\bfseries}{第\,\thechapter\,章}{1em}{}
+\titleformat{\section}{\raggedright\Large\bfseries}{\,\thesection\,}{1em}{}
+\titleformat{\subsection}{\raggedright\large\bfseries}{\,\thesubsection\,}{1em}{}
+\titleformat{\subsubsection}{\raggedright\normalsize\bfseries}{\,\thesubsubsection\,}{1em}{}
+
+% 目錄中的章編號：第 1 章 簡介
+\usepackage[subfigure]{tocloft}
+\renewcommand{\cftchappresnum}{第}
+\renewcommand{\cftchapaftersnum}{章\quad}
+\setlength{\cftchapnumwidth}{3.8em}
+
+\defaultCJKfontfeatures{AutoFakeBold=3} %使沒粗體的中文字型模擬出較粗的字效果，加粗=3
+\setmainfont{Times New Roman}        % 英文字型 Times New Roman
+\setCJKmainfont{AR PL KaitiM Big5}   % 中文字型 楷體 Kaiti，M 代表中等粗細
+\XeTeXlinebreaklocale "zh"             %這兩行一定要加，中文才能自動換行
+\XeTeXlinebreakskip = 0pt plus 1pt     %這兩行一定要加，中文才能自動換行
+
+\newcommand{\vera}[1]{ {\color{black} #1} }
+\setcounter{MaxMatrixCols}{10}
+
+\textwidth 160.0 mm
+\textheight 220.0 mm
+\topmargin -3.0 mm
+\oddsidemargin 4.0 mm
+\evensidemargin -6.0 mm
+\setcounter{secnumdepth}{3}
+\renewcommand{\baselinestretch}{1.4}
+\pagestyle{plain}
+\setlength{\parindent}{2em} %段落開頭空2格(空2個字)
+
+\newenvironment{proof}[1][Proof]{\noindent\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+
+\renewcommand\figurename{圖}
+\renewcommand\tablename{表}
+\renewcommand{\contentsname}{目錄}
+\renewcommand\listfigurename{圖目錄}
+\renewcommand\listtablename{表目錄}
+\renewcommand{\bibname}{參考文獻}
+
+
+\begin{document}
+
+\includepdf{Cover/main.pdf}  % 論文封面 main.pdf
+\includepdf[pages=-]{Thesis_Approval/學位論文授權書.pdf} 
+\includepdf[pages=-]{Thesis_Approval/學位論文延後公開申請書.pdf} 
+\includepdf[pages=-]{Thesis_Approval/推薦書.pdf} 
+\includepdf[pages=-]{Thesis_Approval/審定書.pdf} 
+
+\frontmatter % 開始前置頁（羅馬數字頁碼）
+
+\phantomsection   % 讓超連結/定位準確（必加）
+\addcontentsline{toc}{chapter}{摘要} % 將「摘要」這一章節加進目錄列表中
+\include{abstract_zh}
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Abstract} % 將「Abstract」這一章節加進目錄列表中
+\include{abstract_en}
+
+\phantomsection
+\addcontentsline{toc}{chapter}{致謝} % 將「致謝」這一章節加進目錄列表中
+\include{acknowledgments}
+
+\phantomsection    
+\addcontentsline{toc}{chapter}{目錄} % 將「目錄」這一章節加進目錄列表中
+
+\tableofcontents   % 實際輸出目錄內容
+
+\clearpage      % 強制換頁(開始新的一頁)並清空所有浮動圖表
+\phantomsection
+\addcontentsline{toc}{chapter}{\listfigurename} % 圖目錄
+\listoffigures
+
+\clearpage      % 強制換頁(開始新的一頁)並清空所有浮動圖表
+\phantomsection
+\addcontentsline{toc}{chapter}{\listtablename} % 表目錄
+\listoftables
+
+
+\mainmatter\setcounter{page}{1}
+
+\include{ch01}
+\include{ch02}
+\include{ch03}
+\include{ch04}
+\include{ch05}
+
+\phantomsection
+\addcontentsline{toc}{chapter}{\bibname}
+
+%% 參考文獻（Bibliography）
+\nocite{*} % 把.bib裡的所有文獻都當作「已被引用」，所以就算正文沒有寫 \cite{...}，也會全部印在參考文獻（References）裡。
+\bibliographystyle{IEEEtran} % 指定引用格式 (IEEEtran，引用編號是 [1], [2], ...，按引用順序排列(不是按作者字母順序))。
+\bibliography{thesis}  % thesis.bib 的檔名(不用副檔名)
+\clearpage
+
+\begin{comment}
+
+\begin{appendices}
+	\phantomsection
+	\addcontentsline{toc}{chapter}{附錄A}
+	\begin{center}
+		\LARGE \textbf{附錄A}
+	\end{center}
+	
+	附錄A
+	
+\end{appendices}
+
+
+\end{comment}
+
+\end{document}
