@@ -35,7 +35,7 @@ Copyright © 2026 Guan-Ting Chen
 
 ## Acknowledgements
 
-This project is partially based on
+This project is based in part on
 [sppmg/TW_Thesis_Template](https://github.com/sppmg/TW_Thesis_Template).
  
 Some template files have been modified and adapted for use with 
