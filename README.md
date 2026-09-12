@@ -24,3 +24,10 @@ LaTeX thesis templates for National Central University
 
 This repository is provided for reference only.
 Please refer to the latest thesis formatting requirements of National Central University.
+Thank you.
+
+## License
+
+本專案之教學文件採用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 授權。
+
+Copyright © 2026 Guan-Ting Chen
