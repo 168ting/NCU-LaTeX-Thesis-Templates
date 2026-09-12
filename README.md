@@ -1,11 +1,11 @@
 # NCU-LaTeX-Thesis-Templates
 LaTeX thesis templates for National Central University
-國立中央大學 LaTeX 碩士論文樣板整理。
+國立中央大學 LaTeX 碩博士論文樣板整理
 
 ## Templates
 
-- Sustainable Energy
-- Communication
+- Graduate College of Sustainability and Green Energy
+- Department of Communication Engineering
 
 ## Usage
 
