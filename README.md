@@ -32,3 +32,12 @@ If you find this project helpful, please consider giving it a ⭐ Star. Thanks!
 本專案之樣板及教學文件採用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 授權。
 
 Copyright © 2026 Guan-Ting Chen
+
+## Acknowledgements
+
+This project is based in part on:
+
+- [sppmg/TW_Thesis_Template](https://github.com/sppmg/TW_Thesis_Template)
+
+The original project is licensed under the MIT License.
+Some template files have been modified and adapted for use with National Central University thesis formatting.
