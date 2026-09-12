@@ -2,8 +2,8 @@
 LaTeX thesis templates for National Central University
 國立中央大學 LaTeX 碩博士論文樣板
 
-使用 Overleaf，提供 樣板教學說明書 tutorial for LaTeX，教學內容涵蓋 LaTeX 基礎語法，一般 LaTeX 學習者亦歡迎參考使用。
-已有多位同學使用本樣板，並獲得國立中央大學圖書館「審核通過」。
+使用線上編輯器 Overleaf，提供 樣板教學說明書 tutorial for LaTeX，教學內容涵蓋 LaTeX 基礎語法，一般 LaTeX 學習者亦歡迎參考使用。
+已有多位同學使用本樣板，並經由國立中央大學博碩士論文系統「審核通過」。
 
 ## Templates
 
