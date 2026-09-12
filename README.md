@@ -4,11 +4,11 @@ LaTeX thesis templates for National Central University
 
 搭配線上編輯器 Overleaf 使用，提供 樣板教學說明書 tutorial for LaTeX，教學內容涵蓋 LaTeX 基礎語法，亦歡迎一般 LaTeX 學習者參考使用。
 
-目前已有多位同學使用本樣板完成論文，並通過國立中央大學博碩士論文系統審核。
+目前已有多位學生使用本樣板完成論文，並通過國立中央大學博碩士論文系統審核。
 
 ## Templates
 
-本樣板提供永續綠能學院、通訊系、電機系直接使用，其他科系可以自行更改封面名稱作使用。
+本樣板提供永續綠能學院、通訊系、電機系直接使用，其他科系的學生可以自行更改封面名稱使用。
 - Graduate College of Sustainability and Green Energy
 - Department of Communication Engineering
 
