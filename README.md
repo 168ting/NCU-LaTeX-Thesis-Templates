@@ -28,6 +28,6 @@ Thank you.
 
 ## License
 
-本專案之教學文件採用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 授權。
+本專案之樣板及教學文件採用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 授權。
 
 Copyright © 2026 Guan-Ting Chen
