@@ -38,5 +38,9 @@ Copyright © 2026 Guan-Ting Chen
 This project is based in part on:
 
 - [sppmg/TW_Thesis_Template](https://github.com/sppmg/TW_Thesis_Template)
-
-The original project is licensed under the MIT License.
+ 
+Some template files have been modified and adapted for use with 
+National Central University thesis formatting. 
+ 
+Special thanks to the original author for providing the LaTeX thesis template 
+and related resources.  
