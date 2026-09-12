@@ -18,7 +18,7 @@ LaTeX thesis templates for National Central University
 
 1. Download the desired template.
 2. Upload the files to Overleaf.
-3. Compile with the appropriate LaTeX compiler. ( use `XeLatex` )
+3. Compile with the appropriate LaTeX compiler. ( use `XeLaTex` )
 
 ## Note
 
