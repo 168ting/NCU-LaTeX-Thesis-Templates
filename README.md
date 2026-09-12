@@ -8,10 +8,11 @@ LaTeX thesis templates for National Central University
 
 ## Templates
 
-本樣板提供永續綠能學院、通訊系、電機系直接使用，其他科系的學生可以自行更改封面名稱使用。
+本樣板提供永續綠能學院、通訊系、電機系及資工系直接使用，其他科系的學生可以自行更改封面名稱使用。
 - Graduate College of Sustainability and Green Energy
 - Department of Communication Engineering
 - Department of Electrical Engineering
+- Department of Computer Science and Information Engineering
 
 ## Usage
 
