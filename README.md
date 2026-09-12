@@ -24,7 +24,8 @@ LaTeX thesis templates for National Central University
 
 This repository is provided for reference only.
 Please refer to the latest thesis formatting requirements of National Central University.
-Thank you.
+
+If you find this project helpful, please consider giving it a ⭐ Star. Thanks!
 
 ## License
 
