@@ -29,7 +29,7 @@ If you find this project helpful, please consider giving it a ⭐ Star. Thanks!
 
 ## License
 
-本專案中的 LaTeX 樣板採用 MIT License。
+本專案中的 LaTeX 樣板採用 [MIT License](https://opensource.org/license/mit)。
 
 本專案之教學文件採用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 授權。
 
